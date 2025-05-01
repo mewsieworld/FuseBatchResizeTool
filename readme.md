@@ -55,7 +55,10 @@ The lastest release will ALWAYS support these features! The notes are just for u
 - Shows Background Color in a box at the top by default, which can also be toggled off, or clicked to one-time change background color
 - Allows using of arrow keys to move between images in the folder
 - Preview Mode (off by default) for the last image rendered or a preview of the crop
-- Show Hex code of the background color (off by default)
+- Show Hex code of the background color (off by default) (dynamically colored text to preserve contrast ratio [make reading easier]; v3.1+)
+- Select multiple resolutions to output and view (v3.1+)
+- Statistics for the program, in case you're into that (v3.1+)
+- An in-program manual (just in case) (v3.1+)
 
 ## How to Use
 
