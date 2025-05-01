@@ -4,6 +4,8 @@ A tiny desktop app that lets you manually center images for batch standardizatio
 
 Perfect for fuse assets, sprites, or literally any image that needs to fit inside a 200x200 square without losing anything.
 
+![image](https://github.com/user-attachments/assets/b9219860-4570-460b-984a-0733e80aec63)
+
 ## What It Does
 
 - Load a whole folder (recursively) of images
