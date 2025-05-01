@@ -32,3 +32,11 @@
 - Background options all moved to a singular branch under Options menu 
 - Background box location is able to be changed from top or bottom
 
+# v3.1 - Tweaks
+
+- Images now load in the center for you to make it easier to click
+- Multiple render options at once!
+- Multiple preview windows at once! (Not multiple modes though, I feel like that's overwhelming)
+- Manual added
+- Made text on background color picker more visible/accessible/dynamic
+- Error for no images selected moved to BEFORE the filestamp option, and then reprompts you to select a folder
