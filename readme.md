@@ -74,6 +74,10 @@ The lastest release will ALWAYS support these features! The notes are just for u
 - Works with transparent images to output something any fuse tool can open (v4+)
 - RGB color pickers were added in a few places (v4+)
 
+### v4.1 - NECESSARY BUG FIX
+
+- Fixed File Structure being not retained upon output
+
 ## How to Use
 
 1. Run the EXE (or the Python script itself if you are using an older version i.e. `pyw manual_resizer\__main__.pyw`, `py manual_resizerv2.py` etc.) 

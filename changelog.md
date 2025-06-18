@@ -57,3 +57,8 @@
 - Removed About menu option -> Migrated to Manual
 - Works with transparent images! Yes, even the previews!
 - Right clicking the Reset Background Color button brings up a colorpicker
+
+# v4.1 - NECESSARY BUG FIX
+
+- Fixed File Structure being not retained upon output
+
