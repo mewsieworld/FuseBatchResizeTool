@@ -20,7 +20,10 @@ No cropping. No auto-alignment weirdness. Just your eye and your click.
 - Preview past crops, or view what your current one will look like
 - Configurable view of the background color and/or hex color code
 - Use the arrow keys to cycle through the picture files in the chosen folder
-
+- Use customizable crosshairs to help you visualize picking
+- Use a grid to help you visualize picking better
+- Track statistics locally like your most used resolutions, how many files you've processed, and more
+- Crop transparent images properly and replace the transparency with the picked background color 
 
 ## Why?
 
@@ -52,13 +55,24 @@ The lastest release will ALWAYS support these features! The notes are just for u
 
 ### V3+
 
-- Shows Background Color in a box at the top by default, which can also be toggled off, or clicked to one-time change background color
+- Shows Background Color in a box at the top by default, which can also be toggled off, or clicked to one-time change background color (with a box next to it to reset it back to magenta at any time [v4+] )
 - Allows using of arrow keys to move between images in the folder
 - Preview Mode (off by default) for the last image rendered or a preview of the crop
 - Show Hex code of the background color (off by default) (dynamically colored text to preserve contrast ratio [make reading easier]; v3.1+)
 - Select multiple resolutions to output and view (v3.1+)
 - Statistics for the program, in case you're into that (v3.1+)
 - An in-program manual (just in case) (v3.1+)
+
+### V4+
+
+- Change output folder (script folder by default) (v4+)
+- Single pixel or configurable cross pixel crosshair to better help you select the middle (snaps to invisible pixel grid) (v4+)
+- Enable and change the color of the pixel grid (v4+)
+- Track statistics locally (for funzies!!!) (v4+)
+- Detailed Logging/Errors/Debug Mode (seriously don't run this with `py` unless you want to be littered with debug msgs) (v4+)
+- Tons and tons of keyboard shortcuts (v4+)
+- Works with transparent images to output something any fuse tool can open (v4+)
+- RGB color pickers were added in a few places (v4+)
 
 ## How to Use
 
@@ -81,3 +95,5 @@ Make sure you have these installed/run this ahead of time in your terminal:
 ```pip install pillow```
 
 I ran this on python 3.13.2 and have no plans to add support for other versions lol
+
+I really don't reccommend running it with `py` because that console's going to be spammed more than a child with an off-brand lunchmeat fixation in the 1960's, especially after v4.

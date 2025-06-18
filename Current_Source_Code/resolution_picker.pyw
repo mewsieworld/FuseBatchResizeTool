@@ -6,21 +6,13 @@ import os
 class ResolutionPicker(tk.Toplevel):
     def __init__(self, parent):
         super().__init__(parent)
+        self.withdraw() # Withdraw immediately
         self.title("Resolution Manager")
-        self.grab_set()  # Make window modal
         
         # Set window size and position
         self.geometry("300x500")
         self.resizable(True, True)
         self.minsize(300, 400)
-        
-        # Center window on screen
-        self.update_idletasks()
-        width = self.winfo_width()
-        height = self.winfo_height()
-        x = (self.winfo_screenwidth() // 2) - (width // 2)
-        y = (self.winfo_screenheight() // 2) - (height // 2)
-        self.geometry(f"+{x}+{y}")
 
         # Default resolutions
         self.default_resolutions = [

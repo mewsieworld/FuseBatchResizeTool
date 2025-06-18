@@ -13,7 +13,7 @@ rmdir /s /q %DISTFOLDER%
 del /q %NAME%.spec
 
 :: Build EXE
-pyinstaller --noconsole --onefile --icon=%ICON% --name=%NAME% %ENTRY% --clean --distpath %DISTFOLDER%
+pyinstaller --noconsole --onefile --icon=%ICON% --name=%NAME% %ENTRY% --clean --distpath %DISTFOLDER% --add-data "manual.md;."
 
 :: Ask user to pick release folder
 for /f "usebackq tokens=*" %%i in (`powershell -noprofile -executionpolicy bypass -file "%PICKFOLDER_SCRIPT%"`) do set "RELEASEFOLDER=%%i"

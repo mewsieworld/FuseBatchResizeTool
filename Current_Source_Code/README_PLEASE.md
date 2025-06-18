@@ -8,7 +8,9 @@ I AM NOT RESPONSIBLE FOR WHAT YOU DO WITH THESE TWO FILES IN THIS DIRECTORY
 * __main__
 * config
 * mewsiepto (optional)
-* requirements
 * resizer_app
 * resolution_picker
+* stats_manager
 * utils
+
+You also need pillow. Get it with ```pip install pillow```
